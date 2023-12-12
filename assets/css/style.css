@@ -25080,9 +25080,29 @@ mark.doc,
 .fs-26 {
   font-size: calc(1.255rem + 0.06vw) !important;
 }
+.w-lg-50 {
+  width: 50% !important;
+}
+.lg-block {
+  display: block;
+}
+@media (min-width: 375px) {
+  .fs-26 {
+    font-size: 1.3rem !important;
+  }
+  .w-lg-50 {
+    width:35% !important;
+  }
+  .lg-block {
+    display: none;
+  }
+}
 @media (min-width: 1200px) {
   .fs-26 {
     font-size: 1.3rem !important;
+  }
+  .lg-block {
+    display: block;
   }
 }
 .fs-27 {
