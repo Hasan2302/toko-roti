@@ -25096,6 +25096,10 @@ mark.doc,
   .lg-block {
     display: none;
   }
+  .mh-24 {
+    max-height: 11rem !important;
+    object-fit: cover;
+  }
 }
 @media (min-width: 1200px) {
   .fs-26 {
