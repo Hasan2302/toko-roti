@@ -25108,6 +25108,10 @@ mark.doc,
   .lg-block {
     display: block;
   }
+  .mh-24 {
+    max-height: 24rem !important;
+    object-fit: cover;
+  }
 }
 .fs-27 {
   font-size: calc(1.26rem + 0.12vw) !important;
